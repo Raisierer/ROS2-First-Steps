@@ -25,7 +25,8 @@ setup(
             "smartphone = py_udemy_pkg.smartphone:main",
             "number_publisher = py_udemy_pkg.number_publisher:main",
             "number_counter = py_udemy_pkg.number_counter:main",
-            "add_two_ints_server = py_udemy_pkg.add_two_ints_server:main"
+            "add_two_ints_server = py_udemy_pkg.add_two_ints_server:main",
+            "add_two_ints_client = py_udemy_pkg.add_two_ints_client:main"
         ],
     },
 )
