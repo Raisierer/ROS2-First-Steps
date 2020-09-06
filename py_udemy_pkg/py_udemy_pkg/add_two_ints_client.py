@@ -19,8 +19,8 @@ class AddTwoIntsClientNode(Node):
             self.get_logger().info("Waiting for add_two_ints Server...")
 
         request = AddTwoInts.Request()
-        request.a = 3
-        request.b = 7
+        request.a = a
+        request.b = b
 
         future = self.client_.call_async(request)
         future.add_done_callback(
